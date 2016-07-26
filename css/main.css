@@ -1,0 +1,84 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,700';
+body {
+  font-family: Roboto, sans-serif;
+}
+
+*, html {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body, html {
+  padding: 0;
+  margin: 0;
+}
+
+#mobile-navigation {
+  display: none;
+}
+
+header {
+  background-image: url("../images/sunset_mountain.jpg");
+  background-size: cover;
+  height: 550px;
+}
+
+#desktop-navigation {
+  width: 100%;
+  height: 70px;
+}
+
+.navigation-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.branding-wrapper {
+  margin: 15px 0;
+}
+
+.branding-logo {
+  height: 40px;
+}
+
+.navigation-links-wrapper {
+  margin-top: 26px;
+}
+
+.navigation-link {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.navigation-link a {
+  font-size: 18px;
+  line-height: 18px;
+  color: #2a2d3c;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.navigation-link a:hover {
+  color: #28ea89;
+  transform: rotateX(30deg);
+}
+
+.hero-wrapper {
+  width: 80%;
+  color: #fff;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hero-wrapper h1 {
+  font-weight: 300;
+}

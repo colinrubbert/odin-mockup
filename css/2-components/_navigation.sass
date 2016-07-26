@@ -1,0 +1,49 @@
+// Navigation Styling
+#mobile-navigation
+  display: none
+
+header
+  background-image: url("../images/sunset_mountain.jpg")
+  background-size: cover
+  height: 550px
+
+#desktop-navigation
+  width: 100%
+  height: 70px
+
+.navigation-wrapper
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  width: 80%
+  margin: 0 auto
+
+.branding-wrapper
+  margin: 15px 0
+
+.branding-logo
+  height: 40px
+
+.navigation-links-wrapper
+  margin-top: 26px
+
+.navigation-link
+ display: inline-block
+ margin-left: 30px
+ a
+  font-size: 18px
+  line-height: 18px
+  color: $primary-text
+  text-decoration: none
+  transition: all 0.3s ease-in-out
+  &:hover
+    color: $secondary
+    transform: rotateX(30deg)
+
+.hero-wrapper
+  width: 80%
+  color: $white-text
+  margin: 0 auto
+  text-align: center
+  h1
+    font-weight: 300
